@@ -7,10 +7,6 @@
 # License: GPLv2 or later
 # Version: 0.1
 
-# TODO
-# use width and height
-# defaults to be set in _config.yml
-
 module Jekyll
 	class VideoTag < Liquid::Block
 	 	def initialize(tag_name, markup, tokens)
